@@ -17,7 +17,3 @@ $T.exit() : void
 
 `set` returns a promise that resolves when the host fires the timer.
 The resolved value is an integer status (typically 0).
-
-## Dependencies
-
-- **promise**
