@@ -1,5 +1,11 @@
 # timer
 
+> **Superseded.** Timers and process exit are in
+> [bridge](https://github.com/bats-lang/bridge) (`timer_set`, `exit`, in
+> [`src/timer.bats`](https://github.com/bats-lang/bridge/blob/main/src/timer.bats)).
+> Use `#use wasm.bats-packages.dev/bridge` instead. No package depends on
+> this one, and the repository is to be archived.
+
 Promise-based timers and process control for bats.
 
 ## API
